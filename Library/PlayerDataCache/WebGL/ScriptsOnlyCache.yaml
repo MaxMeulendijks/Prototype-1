@@ -51,7 +51,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1838}
     - Class: 114
-      Script: {instanceID: 23276}
+      Script: {instanceID: 2360}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -117,7 +117,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 5f7ee5bc52f846dec6f41dac6c3856b8
+      Hash: 188fa1317c63ba87167f8cc4cdfa5877
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PlayerController
@@ -163,6 +163,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 37fb1a1de72f01ed277d34f404899284
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FollowPlayer
   - hash:
       serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
@@ -889,12 +895,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 37fb1a1de72f01ed277d34f404899284
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: FollowPlayer
   platform: 20
   scenePathNames:
   - Assets/Scenes/Prototype 1.unity

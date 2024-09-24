@@ -18,8 +18,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Fetch player input
+        //Fetch player input for left/right keys
         horizontalInput = Input.GetAxis("Horizontal");
+        //Fetch player input for up/down keys
         forwardInput = Input.GetAxis("Vertical");
         //Move the vehicle forward
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
